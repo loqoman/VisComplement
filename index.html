@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+	
+<head>
+  <title>Visuals Complement</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+</head>
+
+<body>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Binary Arithmitc Demo</h1>
+    <p>A simple web page to help you understand binary number representation such as Ones Complement, Twos complement, and Sign Magnitude!</p>
+  </div>
+</div>
+<!-- Starting to do everything the way it should be -->
+<div class="row">
+  <div class="col-sm-12">8 Bits:
+
+<!-- Primary buttons are going to be query'd by JQuery by class. DO NOT MAKE MORE PRIMARY BUTTONS -->
+     <button type="button" class="btn btn-primary" id="b1">0</button>
+     <button type="button" class="btn btn-primary" id="b2">0</button>
+     <button type="button" class="btn btn-primary" id="b3">0</button>
+     <button type="button" class="btn btn-primary" id="b4">0</button>
+     <button type="button" class="btn btn-primary" id="b5">0</button>
+     <button type="button" class="btn btn-primary" id="b6">0</button>
+     <button type="button" class="btn btn-primary" id="b7">0</button>
+     <button type="button" class="btn btn-primary" id="b8">0</button>
+     <button type="button" class="btn btn-primary" id="b9">0</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">Control
+    <button type="button" class="btn btn-success">Add 1 binary</button>
+    <button type="button" class="btn btn-success">Add 10 binary</button>
+    <button type="button" class="btn btn-danger" id="reset">Reset to 0</button>
+  </div>
+  <div class="col-sm-6">Telemetry Text</div>
+    <p id="unsigned"> Unsigned Value</p>
+    <p id="ones comp">Ones Complement Value</p>
+    <p id="twos comp">Twos Complement Value</p>
+  </div>
+<div class="row">
+  ...
+</div>
+
+
+
+</body>
+</html>
+
