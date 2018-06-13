@@ -1,0 +1,7 @@
+biggs.ml
+gzip
+
+markdown /blog {
+	template index.html
+	
+}
